@@ -1,0 +1,10 @@
+POST http://localhost:8081/tasks
+
+{ 
+  "title": "Test Task 3",
+  "description": "This is a test task"
+}
+
+###
+
+GET http://localhost:8081/tasks
